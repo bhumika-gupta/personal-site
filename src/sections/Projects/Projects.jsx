@@ -13,7 +13,7 @@ function Projects() {
   return (
     <section id="projects" className={styles.container}>
         <h1 className="sectionTitle">Projects</h1>
-        <div className={styles.projectContainer}>
+        <div className={styles.projectsContainer}>
             <ProjectCard 
                 src={viberr} 
                 link="https://www.linkedin.com/in/bhumika-gupta-0552/"
