@@ -16,7 +16,7 @@ function Projects() {
         <div className={styles.projectsContainer}>
             <ProjectCard 
                 src={blastfrompast}
-                link="https://www.linkedin.com/in/bhumika-gupta-0552/"
+                link="https://stabl.rocks/ShowModulePublish?modulePublishId=36d131e8-f8f6-4586-ab5c-b50ed0cb130e"
                 h3="Blast From The Past" 
                 p="Parkinson's disease detection Elm game" 
             />
