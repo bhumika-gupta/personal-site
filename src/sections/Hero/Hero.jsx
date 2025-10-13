@@ -53,7 +53,7 @@ function Hero() {
                         <img src={githubIcon} alt="Github icon" />
                     </a>
                 </span>
-                <p className={styles.description}>A second year undergraduate Computer Science student at McMaster University. Seeking learning experiences and opportunities to aid in both personal and professional development. Especially interested in opportunities in coding and design!</p>
+                <p className={styles.description}>A third year undergraduate Computer Science student at McMaster University. Seeking learning experiences and opportunities to aid in both personal and professional development. Especially interested in opportunities in coding and design!</p>
                 <a href={CV} download>
                     <button className="hover">
                         Resume
