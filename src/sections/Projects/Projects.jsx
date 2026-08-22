@@ -2,6 +2,8 @@
 import styles from './ProjectStyles.module.css'
 import ProjectCard from '../../common/ProjectCard'
 
+import usercontrolledfeed from '../../assets/user-controlled-feed.png'
+import quoted from '../../assets/quoted.png'
 import blastfrompast from '../../assets/blast-from-the-past.png'
 import tictactoe from '../../assets/tic-tac-toe.png'
 import gbatteries from '../../assets/gbatteries-logo.png'
@@ -14,6 +16,18 @@ function Projects() {
     <section id="projects" className={styles.container}>
         <h1 className="sectionTitle">Projects</h1>
         <div className={styles.projectsContainer}>
+            <ProjectCard 
+                src={usercontrolledfeed}
+                link="https://github.com/bhumika-gupta/user-controlled-feed"
+                h3="User-Controlled Feed" 
+                p="Full-stack social feed exploring user-controlled ranking and finite scrolling." 
+            />
+            <ProjectCard 
+                src={quoted}
+                link="https://github.com/bhumika-gupta/quoted"
+                h3="Quoted" 
+                p="Book quote search app built with React and Flask, using web scraping to retrieve excerpts and pagination to browse results." 
+            />
             <ProjectCard 
                 src={blastfrompast}
                 link="https://stabl.rocks/ShowModulePublish?modulePublishId=36d131e8-f8f6-4586-ab5c-b50ed0cb130e"
