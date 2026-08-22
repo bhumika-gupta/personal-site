@@ -7,8 +7,7 @@ import linkedinLight from '../../assets/linkedin-light.svg'
 import linkedinDark from '../../assets/linkedin-dark.svg'
 import githubLight from '../../assets/github-light.svg'
 import githubDark from '../../assets/github-dark.svg'
-//import CV from '../../assets/cv.pdf'
-import CV from '../../assets/cv.pdf'
+import resume from '../../assets/resume.pdf'
 import { useTheme } from '../../common/Theme.Context'
 
 
@@ -54,7 +53,7 @@ function Hero() {
                     </a>
                 </span>
                 <p className={styles.description}>A third year undergraduate Computer Science student at McMaster University. Seeking learning experiences and opportunities to aid in both personal and professional development. Especially interested in opportunities in coding and design!</p>
-                <a href={CV} download>
+                <a href={resume} download>
                     <button className="hover">
                         Resume
                     </button>
